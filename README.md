@@ -3,7 +3,7 @@
 ## Visit the Web App---> [CLICK HERE](https://crop-recommend-7tbu.onrender.com)
 
 # License
-This project is licensed under the Apache License 2.0 - see the LICENSE file for details.
+This project is licensed under the Apache License 2.0 - see the [LICENSE](https://github.com/rohit-padalkar/Crop-Recommendation-System/blob/main/LICENSE) file for details.
 
 # Description
 The Crop Recommendation System is a machine learning-based application that provides recommendations for suitable crops based on various environmental and soil conditions. It aims to assist farmers and agricultural professionals in making informed decisions about crop selection, optimizing yields, and maximizing profitability.
