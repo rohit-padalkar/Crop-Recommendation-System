@@ -1,5 +1,10 @@
 # Crop Recommendation System Using Machine Learning
 
+## Visit the Web App---> [CLICK HERE](https://crop-recommend-7tbu.onrender.com)
+
+# License
+This project is licensed under the Apache License 2.0 - see the [LICENSE](https://github.com/rohit-padalkar/Crop-Recommendation-System/blob/main/LICENSE) file for details.
+
 # Description
 The Crop Recommendation System is a machine learning-based application that provides recommendations for suitable crops based on various environmental and soil conditions. It aims to assist farmers and agricultural professionals in making informed decisions about crop selection, optimizing yields, and maximizing profitability.
 
@@ -31,13 +36,15 @@ Ensure you have the required dependencies installed to run the project. Use the 
 pip install -r requirements.txt
 ```
 # Future Enhancements
-
 Integration of real-time weather data to improve the accuracy of recommendations.
 Incorporation of crop market prices and profitability analysis to assist farmers in making economically viable decisions.
 Development of a mobile application for convenient access and usage on smartphones and tablets.
 Integration of user feedback and data collection to continuously enhance the recommendation system's performance.
-Contributing
-Contributions to the project are welcome. If you have any suggestions, bug reports, or feature requests, please submit them through the issue tracker on the GitHub repository.
+
+# Contributing
+We welcome contributions! Please follow these guidelines:
+
+Fork the repository. Create a new branch for your changes. Make your changes and write clear commit messages. Push your changes to your fork. Submit a pull request.
 
 # Acknowledgements
 We would like to express our gratitude to the agricultural research community, farmers, and organizations for providing valuable insights, data, and domain knowledge that contributed to the development of this Crop Recommendation System.
