@@ -18,15 +18,15 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
-@app.route("/predict",methods=['POST'])
+@app.route("/Predict",methods=['POST'])
 def predict():
-    N = request.form['Nitrogen']
-    P = request.form['Phosporus']
-    K = request.form['Potassium']
-    temp = request.form['Temperature']
-    humidity = request.form['Humidity']
-    ph = request.form['Ph']
-    rainfall = request.form['Rainfall']
+    N = int(request.form['Nitrogen'])
+    P = int(request.form['Phosphorus'])
+    K = int(request.form['Potassium'])
+    temp = float(request.form['Temperature'])
+    humidity = float(request.form['Humidity'])
+    ph = float(request.form['Ph'])
+    rainfall = float(request.form['Rainfall'])
 
     feature_list = [N, P, K, temp, humidity, ph, rainfall]
     single_pred = np.array(feature_list).reshape(1, -1)
@@ -41,7 +41,7 @@ def predict():
 
     if prediction[0] in crop_dict:
         crop = crop_dict[prediction[0]]
-        result = "{} is the best crop to be cultivated right there".format(crop)
+        result = "{} is the best crop to be cultivated.".format(crop)
     else:
         result = "Sorry, we could not determine the best crop to be cultivated with the provided data."
     return render_template('index.html',result = result)

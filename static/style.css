@@ -13,20 +13,29 @@ body {
 }
 
 h1 {
-  color: #333;
+  color: #ffffff;
 }
 
 form {
   background-color: #fff;
+
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 input[type="number"] {
-  width: 200px;
+  border: 1px solid #ccc;
+  width: 100px;
   padding: 8px;
-  margin-bottom: 15px;
+  /* text-shadow:2px 2px 4px rgba(0, 0, 0, 0.979); */
+  margin-bottom: 0px;
+  line-height: 1;
+  color: white;
+}
+label {
+  color: #fff8f8; /* Change color to your desired color */
+  font-weight: bold;
 }
 
 button {
