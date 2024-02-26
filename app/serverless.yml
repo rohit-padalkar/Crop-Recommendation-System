@@ -1,0 +1,4 @@
+functions:
+  myFunction:
+    handler: handler.myFunction
+    runtime: python3.9
